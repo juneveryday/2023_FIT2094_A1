@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D84AA72-8211-0BB9-B509-81787CE76A5F" name="WASTE_TYPE">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:31:43 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="waste_type_id" id="56DC445A-DF17-95B5-79C4-415EA2745584">
+<createdBy>June</createdBy>
+<createdTime>2023-05-01 08:55:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_desc" id="EB6561C9-A91A-2E8F-7FEE-65E5BB317152">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:31:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type description]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD0D4CE8-085A-2DC8-723D-6BC73828D6D6" name="WASTE_TYPE PK">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:36:11 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56DC445A-DF17-95B5-79C4-415EA2745584</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

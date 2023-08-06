@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BINTYPE_WASTETYPE" directorySegmentName="seg_0" id="1F4936E3-F686-A8B6-D1AA-4BA5972F4B5F">
+<createdBy>June</createdBy>
+<createdTime>2023-05-01 11:12:42 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>FD0D4CE8-085A-2DC8-723D-6BC73828D6D6</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>corresponds to</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D84AA72-8211-0BB9-B509-81787CE76A5F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5C6FC86-8A16-9E80-46C3-B99867812315</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

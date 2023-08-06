@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74A86368-39ED-4DDC-0AED-4FAEE0F520C8" name="LOCAL_AUTHORITY">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:09:44 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="auth_name" id="6B8BA2C8-DA4F-2C27-D159-A4CBC24D23C2">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:10:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_ceo_given_name" id="98213BB0-F158-84C4-7AC0-AB46EA20EFE1">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:10:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority ceo given name]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_ceo_family_name" id="A59A0B2E-AAAA-3C63-5128-3FA5DD8FFCAE">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:10:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority ceo family name]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_telephone_no" id="00F6BFB3-23AE-9A57-C7AB-FB0BD97D37C7">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:10:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority telephone number ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_total_area_sq_km" id="DB2B4592-F3AA-AEA1-DB76-CC717B84C132">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:17:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[authorities total area in square kilometers]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_type" id="03F202A2-97D7-9438-E47C-216A0995297D">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:19:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority type ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<constraintName>chk_auth_type</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Borough"/>
+<valueDef value="C" description="City"/>
+<valueDef value="D" description="District Council"/>
+<valueDef value="S" description="Shire"/>
+<valueDef value="T" description="Town"/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="786A806B-B4D9-C55A-4294-D48D2146A5CB" name="LOCAL_AUTHORITY PK">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 08:10:28 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B8BA2C8-DA4F-2C27-D159-A4CBC24D23C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

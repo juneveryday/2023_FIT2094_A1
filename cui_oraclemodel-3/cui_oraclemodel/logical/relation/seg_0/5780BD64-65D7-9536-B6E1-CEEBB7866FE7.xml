@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COLLECTIONREPORT_WASTETYPE" directorySegmentName="seg_0" id="5780BD64-65D7-9536-B6E1-CEEBB7866FE7">
+<createdBy>June</createdBy>
+<createdTime>2023-05-01 11:34:09 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>D3D96FFF-526F-3E65-6C7A-00517EEB7E03</sourcePk>
+<targetPk>FD0D4CE8-085A-2DC8-723D-6BC73828D6D6</targetPk>
+<identifying>false</identifying>
+<nameOnSource>identifies</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A50CEEA8-0D93-771F-F606-0FC17CED2DE5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7D84AA72-8211-0BB9-B509-81787CE76A5F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

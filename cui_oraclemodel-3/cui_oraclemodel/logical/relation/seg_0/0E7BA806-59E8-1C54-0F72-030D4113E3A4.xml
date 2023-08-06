@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRACT_COLLECTIONREPORT" directorySegmentName="seg_0" id="0E7BA806-59E8-1C54-0F72-030D4113E3A4">
+<createdBy>June</createdBy>
+<createdTime>2023-05-01 07:21:20 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>E1434377-8102-A566-8097-67EB55DCAF52</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>contains</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C5EE3B4-1F95-BF7B-844A-CA1E61ADCB4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A50CEEA8-0D93-771F-F606-0FC17CED2DE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C5EE3B4-1F95-BF7B-844A-CA1E61ADCB4D" name="CONTRACT">
+<createdBy>justintay</createdBy>
+<createdTime>2023-04-29 15:05:28 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contract_no" id="62566F58-325B-CB26-A621-F802F0109B02">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:15:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract no]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contract_start_date" id="14B4DC98-A8D4-CC74-08A2-7C9D0FA6D3B2">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:16:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract start date]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contract_end_date" id="C6C5899A-AA8D-253B-12A9-AB823576914A">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:16:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract end date]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="7A277573-9C35-8249-3CF7-6F7DB291AB53">
+<createdBy>user</createdBy>
+<createdTime>2023-04-30 14:51:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name ]]></commentInRDBMS>
+<generatorID>1A37239C-763A-98F3-C67E-6E242919CBE1</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>6B8BA2C8-DA4F-2C27-D159-A4CBC24D23C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1434377-8102-A566-8097-67EB55DCAF52" name="CONTRACT PK">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:18:01 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62566F58-325B-CB26-A621-F802F0109B02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

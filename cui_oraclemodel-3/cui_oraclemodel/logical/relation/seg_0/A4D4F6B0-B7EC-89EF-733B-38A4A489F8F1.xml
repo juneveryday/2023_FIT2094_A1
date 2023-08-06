@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="localAuthority_street" directorySegmentName="seg_0" id="A4D4F6B0-B7EC-89EF-733B-38A4A489F8F1">
+<createdBy>user</createdBy>
+<createdTime>2023-04-30 14:47:20 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>786A806B-B4D9-C55A-4294-D48D2146A5CB</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>manages </nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74A86368-39ED-4DDC-0AED-4FAEE0F520C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2882DC6F-3EF4-4DC3-7303-CB3CD4C2C0E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

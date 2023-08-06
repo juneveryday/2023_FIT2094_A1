@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BBC8FD6-58AF-CCE9-3C74-6743A26C225E" name="AUTHORISED_TRUCK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:24:17 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="truck_vin" id="DE0A12AA-9097-EFF7-EC05-CE1BDB1E42EE">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:24:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck vin ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_rego_no" id="A81D9B1E-3427-BA02-25FD-A8C62DED60FB">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:24:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck rego number]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_make" id="F7F8B761-E6DF-4136-D0AC-6BBB7F1FF4AC">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:24:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck make ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_model" id="E618F8FC-6B90-1CF5-9472-CBD138E74153">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:24:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck model]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_year" id="0D67F9D5-E699-2D25-7482-78621F35C932">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:24:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck year
+]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE57699A-6741-DA9B-3A62-1B2C64A64B65" name="AUTHORISED_TRUCK PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:25:34 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE0A12AA-9097-EFF7-EC05-CE1BDB1E42EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

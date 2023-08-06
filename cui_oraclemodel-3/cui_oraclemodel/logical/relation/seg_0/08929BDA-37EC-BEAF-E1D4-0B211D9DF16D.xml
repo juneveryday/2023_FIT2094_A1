@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COLLECTREPORT_COLLECTDETAIL" directorySegmentName="seg_0" id="08929BDA-37EC-BEAF-E1D4-0B211D9DF16D">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:29:49 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>D3D96FFF-526F-3E65-6C7A-00517EEB7E03</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>includes</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A50CEEA8-0D93-771F-F606-0FC17CED2DE5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3387868B-B494-5E4F-788E-DC7D7DB0127A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

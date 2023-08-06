@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBD9FBAB-E53E-B927-5365-204728389F16" name="BIN_CONTRACT">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:22:31 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bin_contract_no" id="8941A75A-6945-7126-4FEC-370E0500E685">
+<createdBy>June</createdBy>
+<createdTime>2023-05-02 09:29:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key bin contract no]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contract_no" id="7FBAAA17-502E-7F75-2071-BCCC178A194B">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 08:38:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract no]]></commentInRDBMS>
+<generatorID>007A1C58-8E1E-D611-70B4-13213CFCDBF9</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>62566F58-325B-CB26-A621-F802F0109B02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bin_size" id="5FCC87DD-17A2-31DE-3C35-4F64B4FE3648">
+<createdBy>June</createdBy>
+<createdTime>2023-05-01 11:16:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin size]]></commentInRDBMS>
+<generatorID>7ADB61D1-1C95-8F15-2E12-EC08B0D0D613</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>73C0BAEA-613F-F228-68D2-E3947A75C8E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id" id="19EFD2CB-1AB9-559F-8A7F-4DB44148C1A9">
+<createdBy>June</createdBy>
+<createdTime>2023-05-01 11:16:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<generatorID>7ADB61D1-1C95-8F15-2E12-EC08B0D0D613</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>67625071-3641-56ED-748C-9E454235C6E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contract_supply_cost" id="863B75D0-D1CF-7C33-8096-6F1486666C15">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:22:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract supply cost]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF9CF7EF-4C63-1FA4-91EA-2E3FAE070289" name="BIN_CONTRACT PK">
+<createdBy>June</createdBy>
+<createdTime>2023-04-30 02:23:19 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8941A75A-6945-7126-4FEC-370E0500E685</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="54490402-7C82-5B85-3544-228CB32FC4AB" name="bin_contract_nk">
+<createdBy>June</createdBy>
+<createdTime>2023-05-02 09:31:36 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<newElementsIDs>7FBAAA17-502E-7F75-2071-BCCC178A194B,5FCC87DD-17A2-31DE-3C35-4F64B4FE3648,19EFD2CB-1AB9-559F-8A7F-4DB44148C1A9,863B75D0-D1CF-7C33-8096-6F1486666C15</newElementsIDs>
+<usedAttributes>
+<attributeRef>7FBAAA17-502E-7F75-2071-BCCC178A194B</attributeRef>
+<attributeRef>5FCC87DD-17A2-31DE-3C35-4F64B4FE3648</attributeRef>
+<attributeRef>19EFD2CB-1AB9-559F-8A7F-4DB44148C1A9</attributeRef>
+<attributeRef>863B75D0-D1CF-7C33-8096-6F1486666C15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

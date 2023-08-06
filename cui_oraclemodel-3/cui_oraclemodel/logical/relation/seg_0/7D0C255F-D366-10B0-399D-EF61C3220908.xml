@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BIN_COLLECTIONBIN" directorySegmentName="seg_0" id="7D0C255F-D366-10B0-399D-EF61C3220908">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:57:10 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>5EE36CAD-0C6A-073F-8DC5-B31F151FA915</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>collected by</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C336D956-B5A4-A66A-DBC2-A1C68DD43853</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AE9F106-FF06-D58B-2C8E-D66979C985BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

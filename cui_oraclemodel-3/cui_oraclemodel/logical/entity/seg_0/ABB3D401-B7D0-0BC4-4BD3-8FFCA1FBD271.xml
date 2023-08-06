@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABB3D401-B7D0-0BC4-4BD3-8FFCA1FBD271" name="PROPERTY">
+<createdBy>justintay</createdBy>
+<createdTime>2023-04-29 14:49:53 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="property_street_no" id="5EC9A556-517D-16D3-D96A-DB32E341CF40">
+<createdBy>justintay</createdBy>
+<createdTime>2023-04-29 14:50:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Property Street Number]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_id" id="AA93D390-0A7E-B442-5859-E868BB65B90F">
+<createdBy>user</createdBy>
+<createdTime>2023-04-30 14:50:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id ]]></commentInRDBMS>
+<generatorID>2172E63E-33BE-4953-86FC-97C32257E33B</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>66469C88-3F7A-88DA-9846-1F2A9FD04484</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="AF65095A-D813-F550-FB02-2BFE057E3443">
+<createdBy>user</createdBy>
+<createdTime>2023-04-30 14:50:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name ]]></commentInRDBMS>
+<generatorID>2172E63E-33BE-4953-86FC-97C32257E33B</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>127A2B54-8357-FB35-1BF1-D8E9F64F760B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2AD039D-DA74-B6BC-A5B2-37DF9FF7A63A" name="PROPERTY PK">
+<createdBy>justintay</createdBy>
+<createdTime>2023-04-29 14:51:03 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EC9A556-517D-16D3-D96A-DB32E341CF40</attributeRef>
+<attributeRef>AA93D390-0A7E-B442-5859-E868BB65B90F</attributeRef>
+<attributeRef>AF65095A-D813-F550-FB02-2BFE057E3443</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

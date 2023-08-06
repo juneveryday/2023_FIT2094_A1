@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AUTHORISEDTRUCK_TRIAL" directorySegmentName="seg_0" id="C245FD5A-A49A-AC2B-C114-51531F16D3F5">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:28:06 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<sourcePk>CE57699A-6741-DA9B-3A62-1B2C64A64B65</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>exists</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BBC8FD6-58AF-CCE9-3C74-6743A26C225E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3C48B4B2-6B5A-C17B-E323-711752159BDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

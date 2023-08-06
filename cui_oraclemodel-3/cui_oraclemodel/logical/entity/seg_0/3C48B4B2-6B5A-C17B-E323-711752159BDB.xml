@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C48B4B2-6B5A-C17B-E323-711752159BDB" name="AUTHORISED_TRUCK_DRIVER">
+<createdBy>justi</createdBy>
+<createdTime>2023-05-01 18:10:34 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="truck_vin" id="A7665142-B00A-B11E-AA2B-A3344AFC7264">
+<createdBy>justi</createdBy>
+<createdTime>2023-05-01 18:10:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck vin ]]></commentInRDBMS>
+<generatorID>C245FD5A-A49A-AC2B-C114-51531F16D3F5</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>DE0A12AA-9097-EFF7-EC05-CE1BDB1E42EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_no" id="0276A3A4-C45B-3DCB-E427-17C17034E661">
+<createdBy>justi</createdBy>
+<createdTime>2023-05-01 18:11:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver number]]></commentInRDBMS>
+<generatorID>7482EAEB-1D7D-E869-FE16-D9159FD14A81</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>569E78C1-5078-F1A2-29B6-7A2630D7814B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_approval" id="66748B1E-43C7-DF07-E36F-62F6E00AC6EB">
+<createdBy>justintay</createdBy>
+<createdTime>2023-05-02 08:40:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of approval]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F561E1F7-0FD7-369E-CAF9-89FBB8793C2C" name="TRIAL PK">
+<createdBy>justi</createdBy>
+<createdTime>2023-05-01 18:11:19 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7665142-B00A-B11E-AA2B-A3344AFC7264</attributeRef>
+<attributeRef>0276A3A4-C45B-3DCB-E427-17C17034E661</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

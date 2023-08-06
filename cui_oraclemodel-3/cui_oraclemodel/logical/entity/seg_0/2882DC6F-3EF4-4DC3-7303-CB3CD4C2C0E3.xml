@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2882DC6F-3EF4-4DC3-7303-CB3CD4C2C0E3" name="STREET">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:30:32 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="street_id" id="66469C88-3F7A-88DA-9846-1F2A9FD04484">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:33:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="127A2B54-8357-FB35-1BF1-D8E9F64F760B">
+<createdBy>user</createdBy>
+<createdTime>2023-04-30 14:47:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name ]]></commentInRDBMS>
+<generatorID>A4D4F6B0-B7EC-89EF-733B-38A4A489F8F1</generatorID>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<referedAttribute>6B8BA2C8-DA4F-2C27-D159-A4CBC24D23C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_name " id="86AB70DA-F6B4-CC32-EA92-4501F3D179AF">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:33:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[street name ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_length_meters" id="5030E453-E167-9493-E066-ED8498058219">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:33:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[street length in meters]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_road_surface_type" id="A4138049-D090-B8DB-E6A0-32131BFEC324">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:33:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[street road surface type ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<constraintName>chk_road_surface_types</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Asphalt"/>
+<valueDef value="C" description="Concrete"/>
+<valueDef value="U" description="Unsealed"/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_no_of_lanes" id="8B063AE0-543B-F2DB-251B-510454193A6D">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:33:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[street number of lanes]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D728FA55-9538-CF63-A18D-C3C25305AC39" name="Street PK">
+<createdBy>user</createdBy>
+<createdTime>2023-04-29 09:34:44 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66469C88-3F7A-88DA-9846-1F2A9FD04484</attributeRef>
+<attributeRef>127A2B54-8357-FB35-1BF1-D8E9F64F760B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

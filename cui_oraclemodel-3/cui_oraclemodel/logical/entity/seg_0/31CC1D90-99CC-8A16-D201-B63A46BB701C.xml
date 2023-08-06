@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31CC1D90-99CC-8A16-D201-B63A46BB701C" name="DRIVER">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:31 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="driver_no" id="569E78C1-5078-F1A2-29B6-7A2630D7814B">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver number]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_licence_no" id="BB6894F8-2A1E-3D9E-575D-0C123130364E">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver licence number]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_name" id="175D8ED5-6A3F-A597-6FF0-F0FF92A2FC38">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver name ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_date_of_birth" id="C1899435-B388-4282-568F-D5E933910A5A">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver date of birth]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_taxfile_no" id="402F51D5-AAAD-6355-E34D-6EACC99278B1">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver tax file number]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_contact_no" id="EF7425B4-71DE-1F66-91C9-7F3C93E0F88B">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:31:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver contact number ]]></commentInRDBMS>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="667298E3-A1BA-790C-683E-8EF7A766A06F" name="DRIVER PK">
+<createdBy>user</createdBy>
+<createdTime>2023-05-01 12:32:03 UTC</createdTime>
+<ownerDesignName>cui_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>569E78C1-5078-F1A2-29B6-7A2630D7814B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
